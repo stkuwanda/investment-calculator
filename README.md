@@ -1,4 +1,4 @@
-# TInvestment Calculator Project
+# Investment Calculator Project
 
 This project built on React and Vite demonstrates a simple tinvestment calculator using pure React and CSS for styling. No UI frameworks.
 
