@@ -22,7 +22,7 @@ function UserInput({userInput, onChange}) {
 						required
 						value={userInput.annualInvestment}
 						onChange={(event) =>
-							onChange('initialInvestment', event.target.value)
+							onChange('annualInvestment', event.target.value)
 						}
 					/>
 				</p>
@@ -35,7 +35,7 @@ function UserInput({userInput, onChange}) {
 						required
 						value={userInput.expectedReturn}
 						onChange={(event) =>
-							onChange('initialInvestment', event.target.value)
+							onChange('expectedReturn', event.target.value)
 						}
 					/>
 				</p>
@@ -46,7 +46,7 @@ function UserInput({userInput, onChange}) {
 						required
 						value={userInput.duration}
 						onChange={(event) =>
-							onChange('initialInvestment', event.target.value)
+							onChange('duration', event.target.value)
 						}
 					/>
 				</p>
