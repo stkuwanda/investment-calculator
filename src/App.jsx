@@ -12,7 +12,7 @@ function App() {
 	});
 
 	function userInputChangeHandler(inputIdentifier, newValue) {
-		setUserInput((prev) => ({ ...prev, [inputIdentifier]: newValue }));
+		setUserInput((prev) => ({ ...prev, [inputIdentifier]: +newValue }));
 	}
 
 	return (
